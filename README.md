@@ -72,7 +72,7 @@ initial_state = {
     "surf_spot": {
         "lat": 13.4833,        # Your surf break
         "lon": -89.3833,
-        "name": "El Tunco",
+        "name": "El Zonte",
     },
     "topics": ["AI", "tech", "python"],
 }
