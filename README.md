@@ -53,7 +53,7 @@ cp .env.example .env
 
 | API | Cost | What it does |
 |-----|------|-------------|
-| [OpenAI](https://platform.openai.com/api-keys) | Pay-per-use | Powers the synthesizer LLM |
+| [Anthropic](https://console.anthropic.com/settings/keys) | Pay-per-use | Powers the synthesizer LLM |
 | [NewsAPI](https://newsapi.org/register) | Free tier (100 req/day) | Fetches news headlines |
 | [Open-Meteo](https://open-meteo.com/) | Free, no key needed | Weather and surf data |
 | [ZenQuotes](https://zenquotes.io/) | Free, no key needed | Daily quote |
