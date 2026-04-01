@@ -20,7 +20,7 @@ def main():
             "lon": -89.3833,
             "name": "El Zonte",
         },
-        "topics": ["AI", "tech", "python"],
+        "topics": ["tech", "politics", "stocks"],
         # These will be filled by the nodes:
         "weather": "",
         "surf": "",

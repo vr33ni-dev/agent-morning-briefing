@@ -86,7 +86,7 @@ def fetch_news(state: BriefingState) -> dict:
         response = requests.get(
             "https://newsapi.org/v2/everything",
             params={
-                "q": topic,
+                "q": f"{topic} NOT sports NOT football NOT basketball NOT NFL NOT NBA NOT soccer NOT tennis NOT baseball",
                 "sortBy": "publishedAt",
                 "pageSize": 3,
                 "language": "en",
