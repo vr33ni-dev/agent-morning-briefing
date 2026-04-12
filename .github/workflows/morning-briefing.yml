@@ -1,8 +1,8 @@
 name: Morning Briefing
 
 on:
-  schedule:
-    - cron: "0 13 * * *" # 7:00 AM El Salvador (UTC-6)
+  # schedule:
+  #   - cron: "0 13 * * *" # 7:00 AM El Salvador (UTC-6)
   workflow_dispatch: # allows manual trigger from GitHub UI
 
 jobs:
